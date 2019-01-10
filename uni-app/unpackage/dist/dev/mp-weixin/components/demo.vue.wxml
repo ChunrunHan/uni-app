@@ -1,0 +1,5 @@
+<template name="dceb3f66">
+  <view class="_view data-v-be159348"> {{title}}
+    <view bindtap="handleProxy" data-eventid="{{'qJT-0'}}" data-comkey="{{$k}}" class="_view data-v-be159348">点击我啊</view>
+  </view>
+</template>

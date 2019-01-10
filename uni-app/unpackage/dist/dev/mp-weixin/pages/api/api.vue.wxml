@@ -1,0 +1,19 @@
+<template name="0a98ffab">
+  <view class="_view data-v-7b900d7a content">
+    <picker class="_picker data-v-7b900d7a picker-item" mode="selector" range="{{textList}}" bindchange="handleProxy" data-eventid="{{'Hk6-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-7b900d7a">数据格式为 Array 的选择器：{{textValue}}</view>
+    </picker>
+    <picker class="_picker data-v-7b900d7a picker-item" mode="selector" range="{{objList}}" range-key="text" bindchange="handleProxy" data-eventid="{{'zea-1'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-7b900d7a">数据格式为 Object Array 的选择器：{{objValue}}</view>
+    </picker>
+    <picker class="_picker data-v-7b900d7a picker-item" mode="date" start="2018-01-01" end="2019-01-01" bindchange="handleProxy" data-eventid="{{'Yq6-2'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-7b900d7a">日期选择器：{{date}}</view>
+    </picker>
+    <picker class="_picker data-v-7b900d7a picker-item" mode="time" start="09:00" end="06:00" bindchange="handleProxy" data-eventid="{{'Ry4-3'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-7b900d7a">时间选择器：{{time}}</view>
+    </picker>
+    <picker class="_picker data-v-7b900d7a picker-item" mode="region" bindchange="handleProxy" value="{{area}}" data-eventid="{{'tTi-4'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-7b900d7a">省市区选择器：{{area}}</view>
+    </picker>
+  </view>
+</template>

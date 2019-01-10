@@ -1,0 +1,16 @@
+@import "../../common/vendor.wxss";
+
+@charset "UTF-8";
+.content.data-v-73588baa {
+  text-align: center;
+  height: 400rpx;
+}
+.content .logo.data-v-73588baa {
+  height: 200rpx;
+  width: 200rpx;
+  margin-top: 200rpx;
+}
+.content .title.data-v-73588baa {
+  font-size: 36rpx;
+  color: #8f8f94;
+}
